@@ -1,15 +1,15 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "rea",
-  "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+  "name": "perry-fullstackmarketer-rea",
+  "description": "Perry-fullstackmarketer's marketplace listing for REA (Reverse Engineer Anything). Installs the official, version-pinned rea-agents npm plugin.",
   "owner": {
-    "name": "morluto",
-    "url": "https://github.com/morluto"
+    "name": "Perry-fullstackmarketer",
+    "url": "https://github.com/Perry-fullstackmarketer"
   },
   "plugins": [
     {
       "name": "rea",
-      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "description": "Reverse engineer applications, websites, JavaScript/Electron projects, managed assemblies, firmware and native binaries with evidence-backed agent workflows.",
       "source": {
         "source": "npm",
         "package": "rea-agents",
