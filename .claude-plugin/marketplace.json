@@ -1,6 +1,6 @@
 {
   "name": "perry-fullstackmarketer-rea",
-  "description": "Perry-fullstackmarketer's marketplace listing for REA (Reverse Engineer Anything). Installs the official, version-pinned rea-agents npm plugin.",
+  "description": "Perry-fullstackmarketer's marketplace listing for the official REA reverse-engineering agent plugin.",
   "owner": {
     "name": "Perry-fullstackmarketer",
     "url": "https://github.com/Perry-fullstackmarketer"
@@ -8,11 +8,13 @@
   "plugins": [
     {
       "name": "rea",
-      "description": "Reverse engineer applications, websites, JavaScript/Electron projects, managed assemblies, firmware and native binaries with evidence-backed agent workflows.",
+      "description": "Reverse engineer applications, websites, JavaScript/Electron projects, managed assemblies, firmware, and native binaries with evidence-backed agent workflows.",
+      "version": "6.8.0",
       "source": {
-        "source": "npm",
-        "package": "rea-agents",
-        "version": "6.8.0"
+        "source": "git-subdir",
+        "url": "https://github.com/Perry-fullstackmarketer/rea.git",
+        "path": "plugins/rea-desktop",
+        "ref": "main"
       },
       "category": "development"
     }
