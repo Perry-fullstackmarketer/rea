@@ -1,5 +1,4 @@
 {
-  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "perry-fullstackmarketer-rea",
   "description": "Perry-fullstackmarketer's marketplace listing for REA (Reverse Engineer Anything). Installs the official, version-pinned rea-agents npm plugin.",
   "owner": {
