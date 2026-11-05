@@ -4,9 +4,9 @@
   "display_name": "REA — Reverse Engineer Anything",
   "version": "1.0.0",
   "description": "Use REA's local MCP server to reverse engineer applications, websites, JavaScript/Electron projects, managed assemblies, firmware, and native binaries.",
-  "long_description": "A Claude Desktop Extension for the REA MCP server. It launches the verified rea-agents 6.8.0 package over stdio. REA exposes a broad toolkit for application behavior tracing, JavaScript analysis, binary inspection, evidence capture, and reconstruction verification.",
+  "long_description": "An unofficial community-packaged Claude Desktop Extension for the REA MCP server. It launches the official rea-agents 6.8.0 npm package over stdio. REA exposes tools for application behavior tracing, JavaScript analysis, binary inspection, evidence capture, and reconstruction verification. Upstream REA project and copyright remain with morluto.",
   "author": {
-    "name": "REA Desktop community packaging",
+    "name": "Perry-fullstackmarketer",
     "url": "https://github.com/Perry-fullstackmarketer/rea"
   },
   "homepage": "https://rea.tools/",
@@ -38,7 +38,7 @@
       "win32"
     ],
     "runtimes": {
-      "node": ">=22.23.4"
+      "node": ">=18.0.0"
     }
   },
   "tools_generated": true
