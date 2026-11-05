@@ -9,7 +9,7 @@
     {
       "name": "rea",
       "description": "Reverse engineer applications, websites, JavaScript/Electron projects, managed assemblies, firmware, and native binaries with evidence-backed agent workflows.",
-      "version": "6.8.0",
+      "version": "6.8.1",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/Perry-fullstackmarketer/rea.git",
