@@ -1,0 +1,29 @@
+{
+  "name": "rea",
+  "version": "6.8.0",
+  "description": "Reverse engineer applications, websites, JavaScript/Electron projects, managed assemblies, firmware, and native binaries with REA.",
+  "author": {
+    "name": "morluto",
+    "url": "https://github.com/morluto"
+  },
+  "homepage": "https://rea.tools/",
+  "repository": "https://github.com/morluto/rea",
+  "license": "MIT",
+  "keywords": [
+    "reverse-engineering",
+    "binary-analysis",
+    "decompiler",
+    "mcp-server"
+  ],
+  "skills": "./skills",
+  "mcpServers": {
+    "rea": {
+      "command": "npx",
+      "args": [
+        "--yes",
+        "rea-agents@6.8.0",
+        "mcp"
+      ]
+    }
+  }
+}
